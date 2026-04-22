@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavast - Legal & ComplianceDocs</title>
+    <style>
+        :root {
+            --primary: #0A0A0A;
+            --text: #333;
+            --bg: #F5F5F5;
+            --card: #FFFFFF;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .link-card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-2px);
+        }
+        .link-card h3 {
+            margin: 0;
+            color: var(--primary);
+        }
+        .link-card p {
+            margin: 4px 0 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .arrow {
+            font-size: 1.5rem;
+            color: #CCC;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kavast</h1>
+        <p class="subtitle">Legal, Privacy, and Compliance Information</p>
+
+        <a href="privacy.html" class="link-card">
+            <div>
+                <h3>Privacy Policy</h3>
+                <p>How we handle and protect your personal data.</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+
+        <a href="terms.html" class="link-card">
+            <div>
+                <h3>Terms of Service</h3>
+                <p>Rules and responsibilities for using the app.</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+
+        <a href="delete-data.html" class="link-card">
+            <div>
+                <h3>Data Deletion</h3>
+                <p>Request the removal of your personal information.</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+
+        <a href="report-content.html" class="link-card">
+            <div>
+                <h3>Report Content (DSA)</h3>
+                <p>Report illegal or abusive content in the directory.</p>
+            </div>
+            <div class="arrow">→</div>
+        </a>
+
+        <footer>
+            &copy; 2026 Kavast. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
