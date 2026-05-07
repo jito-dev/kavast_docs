@@ -39,97 +39,207 @@
             padding-left: 20px;
         }
 
-        .placeholder {
-            background: #fff3cd;
-            padding: 2px 4px;
-            border-radius: 4px;
-            border: 1px solid #ffeeba;
+        ol {
+            padding-left: 20px;
+        }
+
+        .highlight {
+            background: #f5f5f5;
+            padding: 10px 12px;
+            border-left: 4px solid #ccc;
+            margin: 15px 0;
+            border-radius: 6px;
         }
     </style>
 </head>
 
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: April 22, 2026</p>
+    <p class="last-updated">Last Updated: May 6, 2026</p>
 
-    <p>Kavast ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your
-        personal information is collected, used, and disclosed by Kavast.</p>
+    <p>Kavast (“we”, “our”, or “us”) is committed to protecting your privacy. This Privacy Policy explains how we
+        collect, use, process, and disclose information when you use our application and services (the “Service”).</p>
+    <p>By using Kavast, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
     <h2>1. Information We Collect</h2>
-    <p>We collect information that you provide directly to us when you create an account, use the application, or
-        communicate with us.</p>
+
+    <h3>1.1 Account Information</h3>
     <ul>
-        <li><strong>Account Information:</strong> Name, email address, profile picture, and nickname.</li>
-        <li><strong>User Content:</strong> Data generated through the use of the app, including coffee cupping sessions,
-            sample notes, scores, and custom forms.</li>
-        <li><strong>Technical Identifiers:</strong> IP addresses, unique device identifiers (UDID), and device metadata
-            (e.g., OS version, device model).</li>
-        <li><strong>Directory Participation:</strong> If you choose to publish sessions to our Directory, your nickname
-            and session details will be visible to other users.</li>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Profile picture</li>
+        <li>Username / nickname</li>
     </ul>
 
-    <h2>2. Legal Basis for Processing</h2>
-    <p>Under the GDPR, we process your data based on the following legal grounds:</p>
+    <h3>1.2 User Content</h3>
+    <p>Data you create while using the Service, including:</p>
     <ul>
-        <li><strong>Consent:</strong> We rely on your explicit consent for recording Session Replays and high-level
-            analytics. You can manage or withdraw this consent at any time via the <strong>Settings</strong> tab in the
-            app.</li>
-        <li><strong>Contractual Necessity:</strong> We process your account and cupping data to provide the services you
-            signed up for.</li>
-        <li><strong>Legitimate Interest:</strong> We process technical identifiers to ensure app security, fix bugs, and
-            improve the general performance of Kavast.</li>
+        <li>coffee cupping sessions</li>
+        <li>tasting notes and scores</li>
+        <li>sensory attributes</li>
+        <li>brewing parameters</li>
+        <li>custom forms and professional data</li>
     </ul>
+    <p>Such data may be processed in anonymized or aggregated form as described in Section 6.</p>
+
+    <h3>1.3 Technical Information</h3>
+    <ul>
+        <li>IP address</li>
+        <li>Device identifiers (e.g., UDID)</li>
+        <li>Device metadata (OS version, model, etc.)</li>
+    </ul>
+
+    <h3>1.4 Usage Data</h3>
+    <ul>
+        <li>interactions within the app (screens visited, actions taken)</li>
+        <li>timestamps and session activity</li>
+    </ul>
+
+    <h3>1.5 Directory Participation</h3>
+    <p>If you publish content to the Directory, your username and selected session data may be visible to other
+        users.</p>
+
+    <h2>2. Legal Basis for Processing (GDPR)</h2>
+    <p>If you are located in the European Economic Area, we process your data under the following legal bases:</p>
+
+    <h3>2.1 Contractual Necessity</h3>
+    <p>We process your data to provide the Service you signed up for.</p>
+
+    <h3>2.2 Consent</h3>
+    <p>We rely on your consent for:</p>
+    <ul>
+        <li>session replay recording</li>
+        <li>advanced analytics features</li>
+    </ul>
+    <p>You may withdraw consent at any time via the app settings.</p>
+
+    <h3>2.3 Legitimate Interest</h3>
+    <p>We process data where necessary for our legitimate interests, including:</p>
+    <ul>
+        <li>maintaining and improving the Service</li>
+        <li>ensuring security and preventing abuse</li>
+        <li>analyzing performance and usage patterns</li>
+    </ul>
+
+    <h3>2.4 Legitimate Interest (De-Identified Data)</h3>
+    <p>We process anonymized and aggregated data to develop analytics, benchmarks, and commercial products,
+        provided that such data does not identify any individual.</p>
 
     <h2>3. Automated Data Collection & Analytics</h2>
-    <p>To improve our service and understand user behavior, we use automated tracking technologies:</p>
+    <p>We use tools and technologies to understand how users interact with the Service.</p>
+
+    <p>We collect:</p>
     <ul>
-        <li><strong>Device Information:</strong> We collect info such as your device model, operating system, and unique
-            device identifiers.</li>
-        <li><strong>Usage Data:</strong> We track interactions within the app (e.g., screens visited, buttons tapped).
-        </li>
-        <li><strong>Session Replays:</strong> We use PostHog to record and replay user sessions. This helps us identify
-            bugs and improve the user experience. You can opt-out of this recording in the App Settings.</li>
+        <li>device and system information</li>
+        <li>behavioral usage data</li>
+        <li>interaction patterns</li>
     </ul>
 
-    <h2>3. Third-Party Services</h2>
-    <p>We work with third-party service providers to power specific features of the app:</p>
+    <h3>Session Replays</h3>
+    <p>We use PostHog to record and replay user sessions for debugging and UX improvement.</p>
+    <p>You can opt out at any time in Settings.</p>
+    <p>Sensitive fields are excluded or masked where possible.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We use trusted third-party providers:</p>
     <ul>
-        <li><strong>Supabase:</strong> Used for authentication and database storage.</li>
-        <li><strong>RevenueCat:</strong> Used to manage subscriptions and in-app purchases.</li>
-        <li><strong>PostHog:</strong> Used for analytics and session recording.</li>
-        <li><strong>Apple/Google:</strong> Used for OAuth authentication.</li>
+        <li>Supabase — authentication and database</li>
+        <li>RevenueCat — subscriptions and purchases</li>
+        <li>PostHog — analytics and session replay</li>
+        <li>Apple / Google — authentication and payments</li>
+    </ul>
+    <p>These providers process data on our behalf under appropriate data protection agreements.</p>
+
+    <h2>5. How We Use Your Information</h2>
+    <p>We use your data to:</p>
+    <ul>
+        <li>provide, operate, and maintain the Service</li>
+        <li>manage accounts and subscriptions</li>
+        <li>enable sharing via the Directory</li>
+        <li>communicate updates, support, and service-related notices</li>
+        <li>monitor performance and fix issues</li>
+        <li>improve functionality and user experience</li>
     </ul>
 
-    <h2>4. How We Use Your Information</h2>
-    <p>We use the collected data to:</p>
+    <h2>6. Use of De-Identified and Aggregated Data</h2>
+    <p>We may create and use data derived from user activity in a form that does not identify you personally
+        (“De-Identified Data”).</p>
+
+    <h3>Definition</h3>
+    <p>De-Identified Data is information that has been anonymized, aggregated, or otherwise processed so that it cannot
+        reasonably be used to identify an individual, directly or indirectly.</p>
+
+    <h3>Examples include:</h3>
     <ul>
-        <li>Provide, maintain, and improve the Kavast application.</li>
-        <li>Manage your account and subscriptions.</li>
-        <li>Facilitate the sharing of cupping data in the Directory.</li>
-        <li>Send technical notices, updates, and support messages.</li>
+        <li>cupping scores and tasting data</li>
+        <li>sensory and evaluation metrics</li>
+        <li>brewing and processing parameters</li>
+        <li>statistical usage patterns</li>
     </ul>
 
-    <h2>5. Data Storage & Security (GDPR)</h2>
-    <p>For users in the European Union, we adhere to the General Data Protection Regulation (GDPR). Your data is stored
-        securely using industry-standard encryption. We collect only the minimum data necessary to provide the service.
-    </p>
-
-    <h2>6. Your Rights</h2>
-    <p>You have the following rights regarding your personal data:</p>
+    <h3>We may use this data to:</h3>
     <ul>
-        <li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
-        <li><strong>Correction:</strong> Request that we correct inaccurate or incomplete data.</li>
-        <li><strong>Deletion:</strong> Request that we delete your personal data and account.</li>
-        <li><strong>Portability:</strong> Request a transfer of your data to another service.</li>
+        <li>improve and develop the Service</li>
+        <li>create analytics, benchmarks, and insights</li>
+        <li>conduct research and publish reports</li>
+        <li>develop and commercialize data-driven products</li>
+        <li>share aggregated datasets with partners or third parties</li>
     </ul>
-    <p>To exercise these rights, please see our <a href="delete-data.html">Data Deletion page</a> or contact us via the
-        email below.</p>
 
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <h3>Important</h3>
+    <ul>
+        <li>This use applies regardless of your in-app sharing settings.</li>
+        <li>No personal data (such as name, email, username, location, or age) is included.</li>
+        <li>We implement safeguards to prevent re-identification.</li>
+    </ul>
+
+    <h2>7. Data Storage and Security</h2>
+    <p>We implement appropriate technical and organizational measures to protect your data, including:</p>
+    <ul>
+        <li>encryption in transit and at rest</li>
+        <li>access controls and authentication</li>
+        <li>minimization of collected data</li>
+    </ul>
+    <p>We store data only as long as necessary to provide the Service and fulfill legal obligations.</p>
+
+    <h2>8. Data Retention</h2>
+    <p>We retain:</p>
+    <ul>
+        <li>account data — while your account is active</li>
+        <li>user content — until deletion or account termination</li>
+        <li>technical data — for limited periods for analytics and security</li>
+    </ul>
+    <p>De-identified data may be retained indefinitely, as it cannot be linked to an individual.</p>
+
+    <h2>9. Your Rights (GDPR)</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li>Access — request a copy of your data</li>
+        <li>Rectification — correct inaccurate data</li>
+        <li>Deletion — Request deletion of your data</li>
+        <li>Portability — receive your data in a structured format</li>
+        <li>Objection — object to certain processing</li>
+        <li>Withdraw Consent — at any time</li>
+    </ul>
+    <p>To exercise your rights, contact us at the email below.</p>
+
+    <h2>10. International Data Transfers</h2>
+    <p>Your data may be processed outside your country of residence.</p>
+    <p>Where required, we use appropriate safeguards such as Standard Contractual Clauses.</p>
+
+    <h2>11. Children’s Privacy</h2>
+    <p>The Service is not intended for users under 13 years of age.</p>
+    <p>We do not knowingly collect personal data from children.</p>
+
+    <h2>12. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically.</p>
+    <p>We will notify you of significant changes via email or in-app notification.</p>
+
+    <h2>13. Contact Information</h2>
+    <p>If you have any questions or requests regarding this Privacy Policy:</p>
     <p>
         Email: lev@kavast.app<br>
-        Address: Vilharjeva cesta 38, Ljubljana, 1000, Slovenia
+        Address: Vilharjeva cesta 38, 1000 Ljubljana, Словения
     </p>
 
     <p><a href="index.html">← Back to Compliance Overview</a></p>
